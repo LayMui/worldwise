@@ -8,7 +8,7 @@ import PagesNotFound from './pages/PagesNotFound'
 export default function App() {
 
   return (
-   
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
